@@ -1,5 +1,4 @@
 body {
-    background: #f73946;
     background: -webkit-linear-gradient(left top, #f73946, #ff3875);
     background: -o-linear-gradient(bottom right, #f73946, #ff3875);
     background: -moz-linear-gradient(bottom right, #f73946, #ff3875);
@@ -157,11 +156,11 @@ body {
   }
   
   #submit {
-    background: #f73946;
+    /* background: #f73946;
     background: -webkit-linear-gradient(left top, #f73946, #ff3875);
     background: -o-linear-gradient(bottom right, #f73946, #ff3875);
     background: -moz-linear-gradient(bottom right, #f73946, #ff3875);
-    background: linear-gradient(to bottom right, #f73946, #ff3875);
+    background: linear-gradient(to bottom right, #f73946, #ff3875); */
     border: none;
     border-radius: 30px;
     padding: 4px 25px;

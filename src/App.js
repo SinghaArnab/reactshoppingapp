@@ -1,11 +1,11 @@
 import './App.css';
-import Fakeuser from './FakeUser/Fakeuser';
+import BmiCalculator from './BMICalculator/BmiCalculator';
 import Footer from './Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Fakeuser/>
+      <BmiCalculator/>
       <Footer/>
     </div>
   );

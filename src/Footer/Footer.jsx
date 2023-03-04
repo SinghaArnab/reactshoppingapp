@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='mt-auto bg-gray-300 '>
+    <div className='mt-auto bg-gray-300'>
 
     <footer className='flex justify-between items-center min-h-[50px] p-4 flex-col lg:flex-row bg-neutral-900 text-white'>
             <div className='text-sm font-semibold  cursor-pointer' ><i className="fa-solid fa-house-lock text-[30px] text-green-400 hover:text-red-400 hover:scale-110 transition ease-in-out" ></i> Copyright &copy; 2022. All rights reserved.</div>    
