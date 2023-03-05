@@ -36,3 +36,109 @@
     transform: rotate(360deg);
   }
 }
+
+.quizcardmain{
+  /* background-image: url("https://helpful-halva-d97fd4.netlify.app/static/media/Quizcardback.24c644d6e5ed394b98c2.svg"); */
+  background: #2c3e50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size:cover;
+  transition: transform .4s
+}
+
+.Quiztext{
+  font-family: Dosis, sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.quizcard1,.quizcard2,.quizcard3,.quizcard4{
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size:cover;
+  border:white 4px solid;
+  transition: transform .4s
+}
+
+.quizcard1{
+  background-image: url(https://reconshell.com/wp-content/uploads/2021/10/html.png);
+}
+.quizcard2{
+  background-image: url(https://cdn.geekboots.com/geek/javascript-hero-1652702096795.webp);
+}
+.quizcard3{
+  background-image: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/how-to-become-a-php-developer-2.jpg);
+}
+.quizcard4{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMM7KhfTV-VquXldD3ArgQLmO7SXt8AvqjA&usqp=CAU);
+}
+
+
+.quizcard4:hover{
+  transform: scale(1.25);
+}
+.quizcard3:hover{
+  transform: scale(1.25);
+}
+.quizcard2:hover{
+  transform: scale(1.25);
+}
+.quizcard1:hover{
+  transform: scale(1.25);
+}
+
+
+
+.card_Select{
+  width: 250px;
+  outline: none;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  cursor: pointer;
+  background-color: #434242;
+  color: rgb(222, 141, 141);
+}
+
+@media only screen and (max-width: 768px) {
+  .card_Select{
+    width: 350px;
+  }
+}
+
+.card_Select:focus,
+.card_Select:hover{
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+
+.quizimg{
+  background-image: url("../public/quizback.svg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.transparentDiv{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.nextbtn:hover{
+  scale: 1.1;
+}
+
+.QuizMain{
+  /* background-image: url("../public/Quizcardback.svg"); */
+  background: #6441A5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
